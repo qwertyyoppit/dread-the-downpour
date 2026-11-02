@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51eedfc753e8104697f36252cd8386c, type: 3}
+  m_Name: murderize
+  m_EditorClassIdentifier: Assembly-CSharp::MindBehaviorData
+  BehaviorName: Murderize
+  Requirements:
+    skillSlot: 0
+    skill: {fileID: 0}
+    skillReady: 1
+    equipmentReady: 0
+    userHealth: 0
+    healthMin: 0
+    healthMax: 0
+    targetHealth: 0
+    targetHealthMin: 0
+    targetHealthMax: 0
+    targetDistance: 1
+    targetDistanceMin: 3
+    targetDistanceMax: 5
+    targetLineOfSight: 1
+    aimTarget: 0
+    grounded: 0
+    noRepetition: 0
+  Action:
+    moveType: 0
+    targetType: 1
+    aimType: 1
+    skillSlot: 0
+    skill: {fileID: 0}
+    sprint: 0
+    behaviorTimer: 0
+    fireEquipment: 0
